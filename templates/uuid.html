@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+
+{% block title %}uuid Page{% endblock %}
+
+{% block content %}
+<h1>your uuid: {{ user_uuid }}!</h1>
+<a href="{{ referrer }}" title="back" class="link"><span>Go back to my profile</span></a>
+
+{% endblock %}

@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block title %}Profile Page{% endblock %}
+
+{% block content %}
+<h1>Welcome, {{ username }}!</h1>
+<a href="/profile_uuid/{{ user_uuid }}" title="uuid" class="link"><span>to uuid page</span></a>
+<br>
+<a href="/" title="index" class="link"><span>back</span></a>
+{% endblock %}
